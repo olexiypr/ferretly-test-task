@@ -1,3 +1,4 @@
+using Ferretly.TestTask.TimeTrackingApi.Mappers;
 using Ferretly.TestTask.TimeTrackingApi.MessageBus;
 using Ferretly.TestTask.TimeTrackingApi.Services.Implementations;
 using Ferretly.TestTask.TimeTrackingApi.Services.Interfaces;
@@ -12,6 +13,7 @@ public static class ServiceCollectionExtensions
         services.AddTransient<IActivityService, ActivityService>();
         services.AddTransient<IProjectService, ProjectService>();
         services.AddTransient<IMessageBusService, MessageBusService>();
+        services.AddTransient<IActivityMapper, ActivityMapper>();
         return services;
     }
 }
