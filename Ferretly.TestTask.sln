@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferretly.TestTask.TimeTrackingApi", "Ferretly.TestTask.TimeTrackingApi\Ferretly.TestTask.TimeTrackingApi.csproj", "{D20F745E-F971-4439-B0C7-237B11604AC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59E2391A-D960-46C1-8E26-F43667063FF4}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferretly.TestTask.TimeTrackingApi.Tests", "Ferretly.TestTask.TimeTrackingApi.Tests\Ferretly.TestTask.TimeTrackingApi.Tests.csproj", "{44F72415-BB63-4A33-852F-59C115250A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferretly.TestTask.NotificationsApp", "Ferretly.TestTask.NotificationsApp\Ferretly.TestTask.NotificationsApp.csproj", "{DE91FF84-7E2A-4A4E-B538-755FE844BD63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20F745E-F971-4439-B0C7-237B11604AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20F745E-F971-4439-B0C7-237B11604AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20F745E-F971-4439-B0C7-237B11604AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20F745E-F971-4439-B0C7-237B11604AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F72415-BB63-4A33-852F-59C115250A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F72415-BB63-4A33-852F-59C115250A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F72415-BB63-4A33-852F-59C115250A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F72415-BB63-4A33-852F-59C115250A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE91FF84-7E2A-4A4E-B538-755FE844BD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE91FF84-7E2A-4A4E-B538-755FE844BD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE91FF84-7E2A-4A4E-B538-755FE844BD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE91FF84-7E2A-4A4E-B538-755FE844BD63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@Ferretly.TestTask.TimeTrackingApi_HostAddress = http://localhost:5088
+
+GET {{Ferretly.TestTask.TimeTrackingApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,19 @@
+﻿services:
+    ferretly.testtask.timetrackingapi:
+        image: ferretly.testtask.timetrackingapi
+        build:
+            context: .
+            dockerfile: Ferretly.TestTask.TimeTrackingApi/Dockerfile
+    
+    rabbit-mq-management:
+        image: rabbitmq:4-management
+        restart: always
+        ports:
+            - "5216:15672"
+            - "5672:5672"
+        volumes:
+            - rabbitmq_data:/var/lib/rabbitmq
+
+volumes:
+    rabbitmq_data:
+        driver: local
